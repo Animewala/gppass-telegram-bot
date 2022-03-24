@@ -1,0 +1,11 @@
+{
+          "name": gppass",
+          "description": "bypass url shortner",
+          "
+          },
+          "buildpacks": [
+                    {
+                              "url": "heroku/python"
+                    }
+          ]
+}
