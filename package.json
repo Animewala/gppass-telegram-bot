@@ -1,6 +1,4 @@
 {
-          "name": "Gppass",
-          ,
           "buildpacks": [
                     {
                               "url": "heroku/python"
