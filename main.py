@@ -33,7 +33,7 @@ def adf(update, context):
         zipk = context.args[0]
         open('1.txt','w').write(zipk)
         update.message.reply_text(f"processing")
-        os.system('python3 bypas.py')
+        os.system('python bypas.py')
         zkm = open('2.txt', 'r').read()
         update.message.reply_text(f"{zkm}")
 
@@ -41,7 +41,7 @@ def gp(update, context):
         zipk = context.args[0]
         open('1.txt','w').write(zipk)
         update.message.reply_text(f"processing")
-        os.system('python3 gp.py')
+        os.system('python gp.py')
         zkm = open('2.txt', 'r').read()
         update.message.reply_text(f"{zkm}")
 
@@ -49,7 +49,7 @@ def droplink(update, context):
         zipk = context.args[0]
         open('1.txt','w').write(zipk)
         update.message.reply_text(f"processing")
-        os.system('python3 droplink.py')
+        os.system('python droplink.py')
         zkm = open('2.txt', 'r').read()
         update.message.reply_text(f"{zkm}")
 
@@ -57,7 +57,7 @@ def sd(update, context):
         zipk = context.args[0]
         open('1.txt','w').write(zipk)
         update.message.reply_text(f"processing")
-        os.system('python3 sd.py')
+        os.system('python sd.py')
         zkm = open('2.txt', 'r').read()
         update.message.reply_text(f"{zkm}")
 
@@ -65,7 +65,7 @@ def lv(update, context):
         zipk = context.args[0]
         open('1.txt','w').write(zipk)
         update.message.reply_text(f"processing")
-        os.system('python3 lv.py')
+        os.system('python lv.py')
         zkm = open('2.txt', 'r').read()
         update.message.reply_text(f"{zkm}")
 
