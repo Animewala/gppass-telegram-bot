@@ -32,7 +32,7 @@ b = bp(link)
 
 if b['success'] == True:
     print(f"[{Fore.GREEN}+{Fore.RESET}] Website Found: {Fore.BLUE}{b['website']}{Fore.RESET}")
-    print(f"[{Fore.GREEN}+{Fore.RESET}] Old: {Fore.RED}{link}{Fore.RESET} \n[{Fore.GREEN}+{Fore.RESET}] Bypassed: {Fore.GREEN}{b['destination']}{Fore.RESET}" ,file=open("2.txt", "w"))
+    print(f"{b['destination']}" ,file=open("2.txt", "w"))
     print(f"[{Fore.GREEN}+{Fore.RESET}] Bypassed In: {Fore.BLUE}{b['time_ms']}ms{Fore.RESET}")
 else:
     print(f"[{Fore.RED}-{Fore.RESET}] An error has occured or this link is invalid !" ,file=open("2.txt", "w"))
