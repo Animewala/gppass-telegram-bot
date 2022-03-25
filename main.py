@@ -24,17 +24,38 @@ def help(update, context):
 
 /sd -> AppDrive or DriveApp links (login required wont work for now)
 
+/ex -> use this command for these services
+linkvertise.com
+exe.io/exey.io
+sub2unlock.net/sub2unlock.com
+rekonise.com
+letsboost.net
+ph.apps2app.com
+mboost.me
+shortconnect.com
+sub4unlock.com
+ytsubme.com
+bit.ly
+social-unlock.com
+boost.ink
+goo.gl
+shrto.ml
+t.co
+tinyurl.com
 
-
-usage - commands link (example -->/adf https://adf.ly/xyz)
+usage - commands{} link{https://...} (example -->/adf https://adf.ly/xyz)
    """)
 
 def adf(update, context):
         zipk = context.args[0]
         open('1.txt','w').write(zipk)
         update.message.reply_text(f"processing")
+        update.message.reply_text(f"10%")
+        update.message.reply_text(f"20%")
         os.system('python bypas.py')
+        update.message.reply_text(f"70%")
         zkm = open('2.txt', 'r').read()
+        update.message.reply_text(f"100%")
         update.message.reply_text(f"{zkm}")
 def ex(update, context):
         zipk = context.args[0]
@@ -48,7 +69,11 @@ def gp(update, context):
         zipk = context.args[0]
         open('1.txt','w').write(zipk)
         update.message.reply_text(f"processing")
+        update.message.reply_text(f"10%")
+        update.message.reply_text(f"20%")
         os.system('python gp.py')
+        update.message.reply_text(f"70%")
+        update.message.reply_text(f"100%")
         zkm = open('2.txt', 'r').read()
         update.message.reply_text(f"{zkm}")
 
