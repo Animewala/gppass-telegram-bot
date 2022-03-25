@@ -50,12 +50,9 @@ def adf(update, context):
         zipk = context.args[0]
         open('1.txt','w').write(zipk)
         update.message.reply_text(f"processing")
-        update.message.reply_text(f"10%")
-        update.message.reply_text(f"20%")
         os.system('python bypas.py')
-        update.message.reply_text(f"70%")
         zkm = open('2.txt', 'r').read()
-        update.message.reply_text(f"100%")
+        update.message.reply_text(f"Done")
         update.message.reply_text(f"{zkm}")
 def ex(update, context):
         zipk = context.args[0]
@@ -69,11 +66,8 @@ def gp(update, context):
         zipk = context.args[0]
         open('1.txt','w').write(zipk)
         update.message.reply_text(f"processing")
-        update.message.reply_text(f"10%")
-        update.message.reply_text(f"20%")
         os.system('python gp.py')
-        update.message.reply_text(f"70%")
-        update.message.reply_text(f"100%")
+        update.message.reply_text(f"Done")
         zkm = open('2.txt', 'r').read()
         update.message.reply_text(f"{zkm}")
 
