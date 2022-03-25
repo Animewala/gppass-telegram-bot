@@ -67,8 +67,9 @@ for Linux
 ```
 
 ### (Deploying to Heroku)
-step1- fork this repo and edit TOKEN.txt and fill your bot token
-step2- use the link below and deploy it
+- fork this repo and edit TOKEN.txt and fill your bot token
+- use the link below and deploy it
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Animewala/bot)
 
 - dont forget to enable worker in resources tab
