@@ -1,5 +1,5 @@
 # This telegram bot can bypass stinky and irritating url shortner with in a sec or two
-# contributers
+## contributers
 1.(deku/anyway/animewala) - telegram bot creator or convertor
 2.TheCaduceus - bypass bots repo supplier
 3.miss emily and yuuki - gplink and droplink bypass bot creator
@@ -8,7 +8,7 @@
 
 
 
-# Supported Links
+## Supported Links
 adf.ly link
 droplink.co link
 gplink stinky url
