@@ -36,6 +36,13 @@ def adf(update, context):
         os.system('python bypas.py')
         zkm = open('2.txt', 'r').read()
         update.message.reply_text(f"{zkm}")
+def ex(update, context):
+        zipk = context.args[0]
+        open('1.txt','w').write(zipk)
+        update.message.reply_text(f"processing")
+        os.system('python ex.py')
+        zkm = open('2.txt', 'r').read()
+        update.message.reply_text(f"{zkm}")
 
 def gp(update, context):
         zipk = context.args[0]
@@ -78,6 +85,6 @@ disp.add_handler(telegram.ext.CommandHandler("droplink", droplink))
 disp.add_handler(telegram.ext.CommandHandler("sd", sd))
 disp.add_handler(telegram.ext.CommandHandler("lv", lv))
 disp.add_handler(telegram.ext.CommandHandler("gp", gp))
-
+disp.add_handler(telegram.ext.CommandHandler("ex", ex))
 updater.start_polling()
 updater.idle()
