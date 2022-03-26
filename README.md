@@ -4,7 +4,7 @@
 ## contributers
 - (deku/anyway/animewala) - telegram bot creator or convertor
 - TheCaduceus - bypass bots repo supplier
-- miss emily and yuuki - gplink and droplink bypass bot creator
+- yuuki - gplink and droplink bypass bot creator
 
 
 
